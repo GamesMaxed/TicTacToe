@@ -1,0 +1,27 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./built/main.js",
+    "test": "mocha ./built/**.spec.*",
+    "test:watch": "mocha --watch ./built/**.spec.*",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/lodash": "^4.14.50",
+    "@types/mocha": "^2.2.38",
+    "@types/node": "^7.0.4",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "tslint": "^4.3.1",
+    "tslint-config-standard": "^3.0.0",
+    "tslint-eslint-rules": "^3.2.3",
+    "typescript": "^2.1.5"
+  }
+}
